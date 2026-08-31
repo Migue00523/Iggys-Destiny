@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: dfca14614e813674aae69da55b168de5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6938466903638039364
+    second: "1 sin t\xEDtulo_0"
+  - first:
+      213: 7366631893970259818
+    second: "1 sin t\xEDtulo_1"
+  - first:
+      213: 9067773526270251934
+    second: "1 sin t\xEDtulo_2"
+  - first:
+      213: 8957337650375383129
+    second: "1 sin t\xEDtulo_3"
+  - first:
+      213: 8491445123463789683
+    second: "1 sin t\xEDtulo_4"
+  - first:
+      213: -6659347419252981511
+    second: "1 sin t\xEDtulo_5"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "1 sin t\xEDtulo_0"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 606
+        width: 684
+        height: 266
+      alignment: 9
+      pivot: {x: 0.49678195, y: 0.33449927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4a9dadc1d95bf90800000000000000
+      internalID: -6938466903638039364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1 sin t\xEDtulo_1"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 397
+        width: 85
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83818734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f092f6da88b3660800000000000000
+      internalID: 7366631893970259818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1 sin t\xEDtulo_2"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 421
+        width: 82
+        height: 115
+      alignment: 9
+      pivot: {x: 0.45431203, y: 0.8435839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e939701aaf337dd70800000000000000
+      internalID: 9067773526270251934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1 sin t\xEDtulo_3"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 401
+        width: 97
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5223738, y: 0.8685418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9585bdf822bde4c70800000000000000
+      internalID: 8957337650375383129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1 sin t\xEDtulo_4"
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 408
+        width: 135
+        height: 150
+      alignment: 9
+      pivot: {x: 0.22670266, y: 0.8761857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c38c5a95ca7d570800000000000000
+      internalID: 8491445123463789683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1 sin t\xEDtulo_5"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 228
+        width: 399
+        height: 120
+      alignment: 9
+      pivot: {x: 0.9678687, y: 0.7705503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0038f0ece3593a0800000000000000
+      internalID: -6659347419252981511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 007f9f23c9ea8ce428a9f24960295f69
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "1 sin t\xEDtulo_0": -6938466903638039364
+      "1 sin t\xEDtulo_1": 7366631893970259818
+      "1 sin t\xEDtulo_2": 9067773526270251934
+      "1 sin t\xEDtulo_3": 8957337650375383129
+      "1 sin t\xEDtulo_4": 8491445123463789683
+      "1 sin t\xEDtulo_5": -6659347419252981511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

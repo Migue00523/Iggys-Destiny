@@ -1,9 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MicrophoneDetector : MonoBehaviour
 {
     
-    public float noiseThreshold = 0.1f;
+    [SerializeField] private float noiseThreshold = 0.1f;
+
+ 
+    [SerializeField] private Slider noiseSlider;
+
+    [SerializeField] private float smoothSpeed = 10f;
 
     private AudioClip microphoneClip;
     private string microphoneDevice;
@@ -11,7 +17,10 @@ public class MicrophoneDetector : MonoBehaviour
 
     public bool IsMakingNoise { get; private set; }
 
-    void Start()
+    // Current noise level, between 0 and 1
+    public float CurrentNoiseLevel { get; private set; }
+
+    private void Start()
     {
         if (Microphone.devices.Length == 0)
         {
@@ -19,10 +28,8 @@ public class MicrophoneDetector : MonoBehaviour
             return;
         }
 
-        // Uses the first available microphone
         microphoneDevice = Microphone.devices[0];
 
-        // Starts recording in a loop
         microphoneClip = Microphone.Start(
             microphoneDevice,
             true,
@@ -31,15 +38,39 @@ public class MicrophoneDetector : MonoBehaviour
         );
 
         microphoneStarted = true;
+
+        if (noiseSlider != null)
+        {
+            noiseSlider.minValue = 0f;
+            noiseSlider.maxValue = 1f;
+            noiseSlider.value = 0f;
+        }
     }
 
-    void Update()
+    private void Update()
     {
         if (!microphoneStarted)
             return;
 
         float volume = GetMicrophoneVolume();
 
+        // Convert the microphone volume into a more visible value
+        float targetNoise = Mathf.Clamp01(volume * 10f);
+
+        // Smooth the movement of the meter
+        CurrentNoiseLevel = Mathf.Lerp(
+            CurrentNoiseLevel,
+            targetNoise,
+            smoothSpeed * Time.deltaTime
+        );
+
+        // Update the UI
+        if (noiseSlider != null)
+        {
+            noiseSlider.value = CurrentNoiseLevel;
+        }
+
+        // Detect noise
         IsMakingNoise = volume > noiseThreshold;
 
         if (IsMakingNoise)
@@ -48,9 +79,11 @@ public class MicrophoneDetector : MonoBehaviour
         }
     }
 
-    float GetMicrophoneVolume()
+    private float GetMicrophoneVolume()
     {
-        int microphonePosition = Microphone.GetPosition(microphoneDevice);
+        int microphonePosition = Microphone.GetPosition(
+            microphoneDevice
+        );
 
         if (microphonePosition < 128)
             return 0f;
@@ -72,11 +105,14 @@ public class MicrophoneDetector : MonoBehaviour
         return sum / samples.Length;
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
-        if (Microphone.IsRecording(microphoneDevice))
+        if (!string.IsNullOrEmpty(microphoneDevice))
         {
-            Microphone.End(microphoneDevice);
+            if (Microphone.IsRecording(microphoneDevice))
+            {
+                Microphone.End(microphoneDevice);
+            }
         }
     }
 }

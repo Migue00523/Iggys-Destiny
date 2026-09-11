@@ -12,7 +12,7 @@ public class ButtonsManager : MonoBehaviour
     {
         Debug.Log("Iniciando juego. Cargando selector de niveles.");
         // Llamamos al gestor general de escenas para ir al pasillo de niveles
-        SceneManager.LoadScene("SelectorNivel");
+        SceneManager.LoadScene("");
     }
 
     public void OnClickOptions()

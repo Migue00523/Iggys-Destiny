@@ -183,7 +183,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 226f14ffd050a7246bf50146a73662ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 146827953}
   - component: {fileID: 146827952}
   - component: {fileID: 146827951}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Pequena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 208429200}
   - component: {fileID: 208429199}
   - component: {fileID: 208429201}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Grande (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 618749851}
   - component: {fileID: 618749850}
   - component: {fileID: 618749852}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Grande
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.27}
+  m_Offset: {x: 0, y: -0.32269529}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -662,7 +662,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.49, y: 0.83}
+  m_Size: {x: 5.49, y: 0.72460943}
   m_EdgeRadius: 0
 --- !u!1 &724878169
 GameObject:
@@ -1053,8 +1053,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.13547371, y: 0.6389426}
-  m_Size: {x: 1.7945278, y: 1.8466116}
+  m_Offset: {x: 0.3129684, y: 0.25502813}
+  m_Size: {x: 1.6880121, y: 1.7370045}
   m_Direction: 0
 --- !u!1 &909970298
 GameObject:
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 909970301}
   - component: {fileID: 909970300}
   - component: {fileID: 909970299}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Mediana (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1495,7 +1495,7 @@ GameObject:
   - component: {fileID: 970130981}
   - component: {fileID: 970130980}
   - component: {fileID: 970130979}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Mediana (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1735,7 +1735,7 @@ GameObject:
   - component: {fileID: 1026989683}
   - component: {fileID: 1026989682}
   - component: {fileID: 1026989681}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Grande (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10620,7 +10620,7 @@ GameObject:
   - component: {fileID: 1207206820}
   - component: {fileID: 1207206819}
   - component: {fileID: 1207206818}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Mediana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10903,6 +10903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IguanaRealNoFake
       objectReference: {fileID: 0}
+    - target: {fileID: 2166492062207094715, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2367153799646384024, guid: caeff4499190349448b1a0dd761d4851, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.39
@@ -10917,7 +10921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2367153799646384024, guid: caeff4499190349448b1a0dd761d4851, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.74
+      value: -3.618
       objectReference: {fileID: 0}
     - target: {fileID: 2367153799646384024, guid: caeff4499190349448b1a0dd761d4851, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11436,7 +11440,7 @@ Transform:
   m_GameObject: {fileID: 1972833681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17, y: -0.36, z: 0}
+  m_LocalPosition: {x: -0.04, y: -0.55, z: 0}
   m_LocalScale: {x: 2.5641026, y: 2.6385221, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11683,7 +11687,7 @@ GameObject:
   - component: {fileID: 2029377974}
   - component: {fileID: 2029377973}
   - component: {fileID: 2029377972}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Pequena (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11861,7 +11865,7 @@ GameObject:
   - component: {fileID: 2035823202}
   - component: {fileID: 2035823201}
   - component: {fileID: 2035823200}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Pequena (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

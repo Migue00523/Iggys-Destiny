@@ -26,19 +26,22 @@ namespace Game.Player {
         private int _facing = 1; // 1 = derecha, -1 = izquierda
         private Vector3 _graphicsBaseScale = Vector3.one;
 
-        private void Awake() {
+        private void Awake()
+        {
             _rb = GetComponent<Rigidbody2D>();
-            _rb.constraints |= RigidbodyConstraints2D.FreezeRotation; // era tan facil gueys. hasta en el inspector se puede
-            groundLayer = LayerMask.GetMask("Ground"); // Esto es la mitad pa arreglar el jump/salto. Adivinen que sigue
 
-            if (boundsCamera == null) {
-                boundsCamera = Camera.main;
-            }
+            _rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
+
+            if (boundsCamera == null)
+                 boundsCamera = Camera.main;
+         
 
             ResolveGraphicsRoot();
 
             var col = GetComponent<Collider2D>();
-            _colliderRadius = col != null ? Mathf.Max(col.bounds.extents.x, col.bounds.extents.y) : 0.5f;
+
+            _colliderRadius = col != null? Mathf.Max(col.bounds.extents.x, col.bounds.extents.y)
+                : 0.5f;
         }
 
         private void ResolveGraphicsRoot() {

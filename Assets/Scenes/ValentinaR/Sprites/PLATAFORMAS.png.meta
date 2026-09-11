@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: 01da0397244fe1d4e8db9f28aeaa6969
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4317474052303262002
+    second: PLATAFORMAS_0
+  - first:
+      213: 621631173940612432
+    second: PLATAFORMAS_1
+  - first:
+      213: 4474668754871112982
+    second: PLATAFORMAS_2
+  - first:
+      213: -1324930383522560832
+    second: PLATAFORMAS_3
+  - first:
+      213: -5255052804390187034
+    second: PLATAFORMAS_4
+  - first:
+      213: 1534800850969811111
+    second: PLATAFORMAS_5
+  - first:
+      213: 5167010439962160085
+    second: PLATAFORMAS_6
+  - first:
+      213: -1776677510330122313
+    second: PLATAFORMAS_7
+  - first:
+      213: 5693342598864948761
+    second: PLATAFORMAS_8
+  - first:
+      213: -5304566848442791685
+    second: PLATAFORMAS_9
+  - first:
+      213: 9129333697823973066
+    second: PLATAFORMAS_10
+  - first:
+      213: -3781893937164943295
+    second: PLATAFORMAS_11
+  - first:
+      213: 7743785929706908058
+    second: PLATAFORMAS_12
+  - first:
+      213: 6502226891401230167
+    second: PLATAFORMAS_13
+  - first:
+      213: 3888855691252349138
+    second: PLATAFORMAS_14
+  - first:
+      213: -6790276146507794302
+    second: PLATAFORMAS_15
+  - first:
+      213: -8939735323215109283
+    second: PLATAFORMAS_16
+  - first:
+      213: 5096990198962635182
+    second: PLATAFORMAS_17
+  - first:
+      213: 277971788944710629
+    second: PLATAFORMAS_18
+  - first:
+      213: -1434219744882307825
+    second: PLATAFORMAS_19
+  - first:
+      213: -7119761700266891656
+    second: PLATAFORMAS_20
+  - first:
+      213: 3450283749938279393
+    second: PLATAFORMAS_21
+  - first:
+      213: -8838389802629028951
+    second: PLATAFORMAS_22
+  - first:
+      213: -2811539454023558695
+    second: PLATAFORMAS_23
+  - first:
+      213: 4891219148580675508
+    second: PLATAFORMAS_24
+  - first:
+      213: -1728725056867962844
+    second: PLATAFORMAS_25
+  - first:
+      213: -6000260800729328992
+    second: PLATAFORMAS_26
+  - first:
+      213: 7440484803259354893
+    second: PLATAFORMAS_27
+  - first:
+      213: -2539544313535603641
+    second: PLATAFORMAS_28
+  - first:
+      213: -3865517291202333433
+    second: PLATAFORMAS_29
+  - first:
+      213: 8695877675646143856
+    second: PLATAFORMAS_30
+  - first:
+      213: -2448335246061262248
+    second: PLATAFORMAS_31
+  - first:
+      213: 2380122783629893749
+    second: PLATAFORMAS_32
+  - first:
+      213: 4395530375829007446
+    second: PLATAFORMAS_33
+  - first:
+      213: 4718408433366914526
+    second: PLATAFORMAS_34
+  - first:
+      213: -2733839762218092413
+    second: PLATAFORMAS_35
+  - first:
+      213: 4881970689318545966
+    second: PLATAFORMAS_36
+  - first:
+      213: 4990736453475376677
+    second: PLATAFORMAS_37
+  - first:
+      213: -2258963924105367460
+    second: PLATAFORMAS_38
+  - first:
+      213: 1004752627077222496
+    second: PLATAFORMAS_39
+  - first:
+      213: -25544675438023324
+    second: PLATAFORMAS_40
+  - first:
+      213: 9094099919935203729
+    second: PLATAFORMAS_41
+  - first:
+      213: 4648240948186976455
+    second: PLATAFORMAS_42
+  - first:
+      213: -3820392948866859604
+    second: PLATAFORMAS_43
+  - first:
+      213: -5046183540895734560
+    second: PLATAFORMAS_44
+  - first:
+      213: -9034294872776877336
+    second: PLATAFORMAS_45
+  - first:
+      213: 1014829502507320503
+    second: PLATAFORMAS_46
+  - first:
+      213: 86327771329068553
+    second: PLATAFORMAS_47
+  - first:
+      213: 3852838212810464740
+    second: PLATAFORMAS_48
+  - first:
+      213: 8180834463580977383
+    second: PLATAFORMAS_49
+  - first:
+      213: 4191127013295633284
+    second: PLATAFORMAS_50
+  - first:
+      213: -3246906472700709773
+    second: PLATAFORMAS_51
+  - first:
+      213: -2367705905006344758
+    second: PLATAFORMAS_52
+  - first:
+      213: 5395457231725396054
+    second: PLATAFORMAS_53
+  - first:
+      213: -5225263805029900591
+    second: PLATAFORMAS_54
+  - first:
+      213: -5648783473048620849
+    second: PLATAFORMAS_55
+  - first:
+      213: -6746788437284450408
+    second: PLATAFORMAS_56
+  - first:
+      213: -4926580775470624293
+    second: PLATAFORMAS_57
+  - first:
+      213: -4253099835152307477
+    second: PLATAFORMAS_58
+  - first:
+      213: 3102412852441009292
+    second: PLATAFORMAS_59
+  - first:
+      213: 1564793925703855732
+    second: PLATAFORMAS_60
+  - first:
+      213: -5535351949075460016
+    second: PLATAFORMAS_61
+  - first:
+      213: 5688929019508397148
+    second: PLATAFORMAS_62
+  - first:
+      213: 407575095273529919
+    second: PLATAFORMAS_63
+  - first:
+      213: -793333477587505493
+    second: PLATAFORMAS_64
+  - first:
+      213: 1454520975138444262
+    second: PLATAFORMAS_65
+  - first:
+      213: 8718558396274257329
+    second: PLATAFORMAS_66
+  - first:
+      213: 2669340070733818857
+    second: PLATAFORMAS_67
+  - first:
+      213: 7695832295718212426
+    second: PLATAFORMAS_68
+  - first:
+      213: 8383168929773133178
+    second: PLATAFORMAS_69
+  - first:
+      213: 4667230125593051876
+    second: PLATAFORMAS_70
+  - first:
+      213: -4853326475967024104
+    second: PLATAFORMAS_71
+  - first:
+      213: 3704732474038010242
+    second: PLATAFORMAS_72
+  - first:
+      213: -7545090612530501162
+    second: PLATAFORMAS_73
+  - first:
+      213: 4111179116161007135
+    second: PLATAFORMAS_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PLATAFORMAS_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 597
+        width: 765
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55161744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece6f7179304514c0800000000000000
+      internalID: -4317474052303262002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_12
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 586
+        width: 326
+        height: 171
+      alignment: 9
+      pivot: {x: 0.49559423, y: 0.3991817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9929d45644777b60800000000000000
+      internalID: 7743785929706908058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_16
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 588
+        width: 240
+        height: 143
+      alignment: 9
+      pivot: {x: 0.48204193, y: 0.73107314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5360c9961eafe380800000000000000
+      internalID: -8939735323215109283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 365
+        width: 653
+        height: 171
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.5252054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0601410e03991fd00800000000000000
+      internalID: 1004752627077222496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_44
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 56
+        width: 1115
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7350913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4ac7d2eca58f9b0800000000000000
+      internalID: -5046183540895734560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_64
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 352
+        width: 444
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5041908, y: 0.42115933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baea8f7c7638df4f0800000000000000
+      internalID: -793333477587505493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_72
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 23
+        width: 483
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281c3ee7e8ad96330800000000000000
+      internalID: 3704732474038010242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PLATAFORMAS_73
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 329
+        width: 270
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5106423, y: 0.7693759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d92cf140147a4790800000000000000
+      internalID: -7545090612530501162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 029149450f7ed6c489699b3c101b9a32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PLATAFORMAS_0: -4317474052303262002
+      PLATAFORMAS_1: 621631173940612432
+      PLATAFORMAS_10: 9129333697823973066
+      PLATAFORMAS_11: -3781893937164943295
+      PLATAFORMAS_12: 7743785929706908058
+      PLATAFORMAS_13: 6502226891401230167
+      PLATAFORMAS_14: 3888855691252349138
+      PLATAFORMAS_15: -6790276146507794302
+      PLATAFORMAS_16: -8939735323215109283
+      PLATAFORMAS_17: 5096990198962635182
+      PLATAFORMAS_18: 277971788944710629
+      PLATAFORMAS_19: -1434219744882307825
+      PLATAFORMAS_2: 4474668754871112982
+      PLATAFORMAS_20: -7119761700266891656
+      PLATAFORMAS_21: 3450283749938279393
+      PLATAFORMAS_22: -8838389802629028951
+      PLATAFORMAS_23: -2811539454023558695
+      PLATAFORMAS_24: 4891219148580675508
+      PLATAFORMAS_25: -1728725056867962844
+      PLATAFORMAS_26: -6000260800729328992
+      PLATAFORMAS_27: 7440484803259354893
+      PLATAFORMAS_28: -2539544313535603641
+      PLATAFORMAS_29: -3865517291202333433
+      PLATAFORMAS_3: -1324930383522560832
+      PLATAFORMAS_30: 8695877675646143856
+      PLATAFORMAS_31: -2448335246061262248
+      PLATAFORMAS_32: 2380122783629893749
+      PLATAFORMAS_33: 4395530375829007446
+      PLATAFORMAS_34: 4718408433366914526
+      PLATAFORMAS_35: -2733839762218092413
+      PLATAFORMAS_36: 4881970689318545966
+      PLATAFORMAS_37: 4990736453475376677
+      PLATAFORMAS_38: -2258963924105367460
+      PLATAFORMAS_39: 1004752627077222496
+      PLATAFORMAS_4: -5255052804390187034
+      PLATAFORMAS_40: -25544675438023324
+      PLATAFORMAS_41: 9094099919935203729
+      PLATAFORMAS_42: 4648240948186976455
+      PLATAFORMAS_43: -3820392948866859604
+      PLATAFORMAS_44: -5046183540895734560
+      PLATAFORMAS_45: -9034294872776877336
+      PLATAFORMAS_46: 1014829502507320503
+      PLATAFORMAS_47: 86327771329068553
+      PLATAFORMAS_48: 3852838212810464740
+      PLATAFORMAS_49: 8180834463580977383
+      PLATAFORMAS_5: 1534800850969811111
+      PLATAFORMAS_50: 4191127013295633284
+      PLATAFORMAS_51: -3246906472700709773
+      PLATAFORMAS_52: -2367705905006344758
+      PLATAFORMAS_53: 5395457231725396054
+      PLATAFORMAS_54: -5225263805029900591
+      PLATAFORMAS_55: -5648783473048620849
+      PLATAFORMAS_56: -6746788437284450408
+      PLATAFORMAS_57: -4926580775470624293
+      PLATAFORMAS_58: -4253099835152307477
+      PLATAFORMAS_59: 3102412852441009292
+      PLATAFORMAS_6: 5167010439962160085
+      PLATAFORMAS_60: 1564793925703855732
+      PLATAFORMAS_61: -5535351949075460016
+      PLATAFORMAS_62: 5688929019508397148
+      PLATAFORMAS_63: 407575095273529919
+      PLATAFORMAS_64: -793333477587505493
+      PLATAFORMAS_65: 1454520975138444262
+      PLATAFORMAS_66: 8718558396274257329
+      PLATAFORMAS_67: 2669340070733818857
+      PLATAFORMAS_68: 7695832295718212426
+      PLATAFORMAS_69: 8383168929773133178
+      PLATAFORMAS_7: -1776677510330122313
+      PLATAFORMAS_70: 4667230125593051876
+      PLATAFORMAS_71: -4853326475967024104
+      PLATAFORMAS_72: 3704732474038010242
+      PLATAFORMAS_73: -7545090612530501162
+      PLATAFORMAS_74: 4111179116161007135
+      PLATAFORMAS_8: 5693342598864948761
+      PLATAFORMAS_9: -5304566848442791685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

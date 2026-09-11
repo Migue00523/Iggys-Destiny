@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Game.Player {
     [RequireComponent(typeof(Rigidbody2D))]
-    public class PlayerController2D : MonoBehaviour {
+    public class PlayerController2DGravedadArriba : MonoBehaviour {
         [SerializeField] private float moveSpeed = 6f;
         [SerializeField] private float jumpForce = 12f;
         [SerializeField] private Transform groundCheck;
@@ -28,8 +28,9 @@ namespace Game.Player {
 
         private void Awake() {
             _rb = GetComponent<Rigidbody2D>();
-            _rb.constraints |= RigidbodyConstraints2D.FreezeRotation; // era tan facil gueys. hasta en el inspector se puede
-            groundLayer = LayerMask.GetMask("Ground"); // Esto es la mitad pa arreglar el jump/salto. Adivinen que sigue
+            _rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
+
+            groundLayer = LayerMask.GetMask("Ground");
 
             if (boundsCamera == null) {
                 boundsCamera = Camera.main;
@@ -39,6 +40,8 @@ namespace Game.Player {
 
             var col = GetComponent<Collider2D>();
             _colliderRadius = col != null ? Mathf.Max(col.bounds.extents.x, col.bounds.extents.y) : 0.5f;
+
+            Physics2D.gravity = new Vector2(0, 9.81f);
         }
 
         private void ResolveGraphicsRoot() {
@@ -58,6 +61,8 @@ namespace Game.Player {
             }
 
             // Guarda la escala original para no perderla al voltear.
+            // Solo se normaliza X: si pusiste Y negativa para que la iguana
+            // camine por el techo, esa inversion se conserva.
             _graphicsBaseScale = graphicsRoot.localScale;
             _graphicsBaseScale.x = Mathf.Abs(_graphicsBaseScale.x);
 
@@ -104,7 +109,8 @@ namespace Game.Player {
                 Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
             if (_jumpRequested) {
-                _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, jumpForce);
+                // Gravedad invertida: el salto empuja hacia ABAJO.
+                _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, -jumpForce);
                 _jumpRequested = false;
             }
 

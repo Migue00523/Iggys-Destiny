@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: a9f407413ff65284f89fd8862a8a8960
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5720599993934625453
+    second: OBSTACULOS NIVEL 7_0
+  - first:
+      213: -1202229600373329375
+    second: OBSTACULOS NIVEL 7_1
+  - first:
+      213: 4249360525055366859
+    second: OBSTACULOS NIVEL 7_2
+  - first:
+      213: 3805408400184883067
+    second: OBSTACULOS NIVEL 7_3
+  - first:
+      213: -1230653769602337786
+    second: OBSTACULOS NIVEL 7_4
+  - first:
+      213: 1874377673079220378
+    second: OBSTACULOS NIVEL 7_5
+  - first:
+      213: 7947162950949860238
+    second: OBSTACULOS NIVEL 7_6
+  - first:
+      213: 7701650703866718875
+    second: OBSTACULOS NIVEL 7_7
+  - first:
+      213: 2594688735148242286
+    second: OBSTACULOS NIVEL 7_8
+  - first:
+      213: 5735293649254241190
+    second: OBSTACULOS NIVEL 7_9
+  - first:
+      213: 3839079205944727261
+    second: OBSTACULOS NIVEL 7_10
+  - first:
+      213: -4590837412183505226
+    second: OBSTACULOS NIVEL 7_11
+  - first:
+      213: -5929613660811136455
+    second: OBSTACULOS NIVEL 7_12
+  - first:
+      213: 6099144328937609174
+    second: OBSTACULOS NIVEL 7_13
+  - first:
+      213: 5083211496489522762
+    second: OBSTACULOS NIVEL 7_14
+  - first:
+      213: -2030267855933365720
+    second: OBSTACULOS NIVEL 7_15
+  - first:
+      213: 5246477368116009360
+    second: OBSTACULOS NIVEL 7_16
+  - first:
+      213: -5492548704749980963
+    second: OBSTACULOS NIVEL 7_17
+  - first:
+      213: 5402464558445756338
+    second: OBSTACULOS NIVEL 7_18
+  - first:
+      213: -5975450031182326298
+    second: OBSTACULOS NIVEL 7_19
+  - first:
+      213: 2934098293802089342
+    second: OBSTACULOS NIVEL 7_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_0
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 661
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa339ca267a36f40800000000000000
+      internalID: 5720599993934625453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 386
+        width: 539
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122b9435c82d05fe0800000000000000
+      internalID: -1202229600373329375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 93
+        width: 542
+        height: 834
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc61e7a22e2c8fa30800000000000000
+      internalID: 4249360525055366859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 103
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77be4e27c68fc430800000000000000
+      internalID: 3805408400184883067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 236
+        width: 372
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6047b55bae6dbeee0800000000000000
+      internalID: -1230653769602337786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 119
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a986fc21090230a10800000000000000
+      internalID: 1874377673079220378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 137
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83f287199ef94e60800000000000000
+      internalID: 7947162950949860238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 199
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9aec149282c1ea60800000000000000
+      internalID: 7701650703866718875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65f73948af220420800000000000000
+      internalID: 2594688735148242286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 159
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a35a56ef2bd79f40800000000000000
+      internalID: 5735293649254241190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd69cee8236274530800000000000000
+      internalID: 3839079205944727261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 182
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b68a3962b11a40c0800000000000000
+      internalID: -4590837412183505226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 65
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9327c0cbac7c5bda0800000000000000
+      internalID: -5929613660811136455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d71a28d37384a450800000000000000
+      internalID: 6099144328937609174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_14
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46907e8ce13b8640800000000000000
+      internalID: 5083211496489522762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_15
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822a230542a03d3e0800000000000000
+      internalID: -2030267855933365720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 19
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0995ea88e5b3fc840800000000000000
+      internalID: 5246477368116009360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_17
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 29
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd278d5cd0c86c3b0800000000000000
+      internalID: -5492548704749980963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bffbc574e869fa40800000000000000
+      internalID: 5402464558445756338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_19
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 16
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5d74e1bdfe21da0800000000000000
+      internalID: -5975450031182326298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OBSTACULOS NIVEL 7_20
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b372a4ad208b820800000000000000
+      internalID: 2934098293802089342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c4de69930e44ee3468e9ae6930973e4c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OBSTACULOS NIVEL 7_0: 5720599993934625453
+      OBSTACULOS NIVEL 7_1: -1202229600373329375
+      OBSTACULOS NIVEL 7_10: 3839079205944727261
+      OBSTACULOS NIVEL 7_11: -4590837412183505226
+      OBSTACULOS NIVEL 7_12: -5929613660811136455
+      OBSTACULOS NIVEL 7_13: 6099144328937609174
+      OBSTACULOS NIVEL 7_14: 5083211496489522762
+      OBSTACULOS NIVEL 7_15: -2030267855933365720
+      OBSTACULOS NIVEL 7_16: 5246477368116009360
+      OBSTACULOS NIVEL 7_17: -5492548704749980963
+      OBSTACULOS NIVEL 7_18: 5402464558445756338
+      OBSTACULOS NIVEL 7_19: -5975450031182326298
+      OBSTACULOS NIVEL 7_2: 4249360525055366859
+      OBSTACULOS NIVEL 7_20: 2934098293802089342
+      OBSTACULOS NIVEL 7_3: 3805408400184883067
+      OBSTACULOS NIVEL 7_4: -1230653769602337786
+      OBSTACULOS NIVEL 7_5: 1874377673079220378
+      OBSTACULOS NIVEL 7_6: 7947162950949860238
+      OBSTACULOS NIVEL 7_7: 7701650703866718875
+      OBSTACULOS NIVEL 7_8: 2594688735148242286
+      OBSTACULOS NIVEL 7_9: 5735293649254241190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,6 +42,7 @@ namespace Game.Player {
 
             _colliderRadius = col != null? Mathf.Max(col.bounds.extents.x, col.bounds.extents.y)
                 : 0.5f;
+            Physics2D.gravity = new Vector2(0, -9.81f); // no borrar
         }
 
         private void ResolveGraphicsRoot() {

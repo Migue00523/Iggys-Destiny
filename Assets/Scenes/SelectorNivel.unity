@@ -709,8 +709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198, y: 142}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -52.8, y: 92.26}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236426146
 MonoBehaviour:
@@ -755,7 +755,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 236426147}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel6
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &236426147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -806,6 +818,7 @@ GameObject:
   - component: {fileID: 348733888}
   - component: {fileID: 348733887}
   - component: {fileID: 348733886}
+  - component: {fileID: 348733890}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -862,8 +875,8 @@ Canvas:
   m_GameObject: {fileID: 348733885}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1206800205}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -909,6 +922,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &348733890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348733885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787e171935b27014c909759b50b83857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game.UI.CargarEscenas
 --- !u!1 &356256108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,8 +1429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284, y: -36}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -108.31, y: -49.6}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505807219
 MonoBehaviour:
@@ -1450,7 +1475,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 505807220}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &505807220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1525,8 +1562,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -235, y: 52}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -76.69, y: 20.53}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662962938
 MonoBehaviour:
@@ -1571,7 +1608,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 662962939}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &662962939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1646,8 +1695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -376, y: 138}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -167.72, y: 89.07}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &833145611
 MonoBehaviour:
@@ -1779,8 +1828,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 124, y: 93}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 155.1, y: 53.21}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &871758380
 MonoBehaviour:
@@ -1825,7 +1874,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 871758381}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel11
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &871758381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,8 +1961,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -305, y: -84}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -121.88, y: -87.86}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &880393280
 MonoBehaviour:
@@ -1946,7 +2007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 880393281}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &880393281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2100,8 +2173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35, y: -88}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 97.62, y: -91.05}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035258536
 MonoBehaviour:
@@ -2146,7 +2219,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1035258537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel7
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1035258537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2221,8 +2306,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: 48}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 142.82, y: 17.34}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040933528
 MonoBehaviour:
@@ -2267,7 +2352,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1040933529}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel10
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1040933529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2479,8 +2576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -216, y: 97}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -64.42, y: 56.39}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143760730
 MonoBehaviour:
@@ -2525,7 +2622,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1143760731}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel5
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1143760731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3107,8 +3216,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 142, y: 138}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 166.71, y: 89.07}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1604599531
 MonoBehaviour:
@@ -3153,7 +3262,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1604599532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel12
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1604599532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3367,8 +3488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56, y: -40}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 111.19, y: -52.79}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1708017385
 MonoBehaviour:
@@ -3413,7 +3534,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1708017386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel8
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1708017386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3488,8 +3621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: 9}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -92.83, y: -13.74}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815101680
 MonoBehaviour:
@@ -3534,7 +3667,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1815101681}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1815101681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3748,8 +3893,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 80, y: 5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 126.69, y: -16.93}
+  m_SizeDelta: {x: 103.3, y: 23.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1922628686
 MonoBehaviour:
@@ -3794,7 +3939,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1922628687}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 348733890}
+        m_TargetAssemblyTypeName: Game.UI.CargarEscenas, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nivel9
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1922628687
 MonoBehaviour:
   m_ObjectHideFlags: 0

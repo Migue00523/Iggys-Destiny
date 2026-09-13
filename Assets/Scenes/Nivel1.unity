@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 875626385}
   - component: {fileID: 875626383}
   - component: {fileID: 875626384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11063,7 +11063,7 @@ GameObject:
   - component: {fileID: 1437518405}
   - component: {fileID: 1437518404}
   - component: {fileID: 1437518403}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}

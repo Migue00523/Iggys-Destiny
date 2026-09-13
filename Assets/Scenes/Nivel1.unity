@@ -977,7 +977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Player.PlayerController2D
   moveSpeed: 6
-  jumpForce: 12
+  jumpForce: 6
   groundCheck: {fileID: 1972833682}
   groundCheckRadius: 0.1
   groundLayer:

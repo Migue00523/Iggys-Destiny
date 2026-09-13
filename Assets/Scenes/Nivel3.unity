@@ -766,15 +766,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Player.PlayerController2D
   moveSpeed: 6
-  jumpForce: 12
+  jumpForce: 6
   groundCheck: {fileID: 1972833682}
   groundCheckRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   boundsCamera: {fileID: 0}
   touchJoystick: {fileID: 2020006779}
   touchJumpButton: {fileID: 968261628}
+  graphicsRoot: {fileID: 0}
 --- !u!50 &753885500
 Rigidbody2D:
   serializedVersion: 5

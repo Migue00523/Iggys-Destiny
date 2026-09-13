@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class BotonNiveles : MonoBehaviour
 {
-    public string nivelesSceneName = "Niveles";
+    public string nivelesSceneName = "Selectornivel";
 
     public void IrANiveles()
     {

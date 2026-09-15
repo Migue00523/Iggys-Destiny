@@ -2111,7 +2111,7 @@ MonoBehaviour:
     m_Bits: 0
   boundsCamera: {fileID: 0}
   touchJoystick: {fileID: 2020006779}
-  touchJumpButton: {fileID: 968261628}
+  touchJumpButton: {fileID: 0}
   graphicsRoot: {fileID: 0}
 --- !u!50 &1094497339
 Rigidbody2D:
@@ -3071,7 +3071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24, y: 400.44318}
+  m_AnchoredPosition: {x: 24, y: 321}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593135246

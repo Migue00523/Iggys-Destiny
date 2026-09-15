@@ -934,7 +934,7 @@ Transform:
   m_GameObject: {fileID: 626476587}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.70077, y: -6.54358, z: 0}
+  m_LocalPosition: {x: 20.42, y: -6.54358, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1017,10 +1017,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 875626382}
-  - component: {fileID: 875626377}
   - component: {fileID: 875626385}
   - component: {fileID: 875626383}
-  - component: {fileID: 875626384}
+  - component: {fileID: 875626386}
+  - component: {fileID: 875626387}
   m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
@@ -1028,26 +1028,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &875626377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875626376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741db2b8ccd372846878cd397d2715ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Game.Level.DoorController
-  blockingCollider: {fileID: 875626383}
-  openSprite: {fileID: 21300000, guid: 82a8a8660a4770c4cae06c5ed866a9ea, type: 3}
-  openLocalPosition: {x: 8.2, y: 2.35, z: 0}
-  openLocalScale: {x: 0.081, y: 0.081, z: 1}
-  requiredKeys: 0
-  onLevelComplete:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &875626382
 Transform:
   m_ObjectHideFlags: 0
@@ -1094,57 +1074,6 @@ PolygonCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.24, y: 10.24}
-    newSize: {x: 10.24, y: 10.24}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -5.12, y: 5.12}
-      - {x: -5.12, y: -5.12}
-      - {x: 5.12, y: -5.12}
-      - {x: 5.12, y: 5.12}
-  m_UseDelaunayMesh: 1
---- !u!60 &875626384
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875626376}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1224,6 +1153,39 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &875626386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875626376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e99f66ee86db7694bb53026605cd04f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SalidaNivel
+  SelectorNivel: SelectorNivel
+--- !u!114 &875626387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875626376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741db2b8ccd372846878cd397d2715ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Level.DoorController
+  blockingCollider: {fileID: 875626383}
+  openSprite: {fileID: 21300000, guid: 82a8a8660a4770c4cae06c5ed866a9ea, type: 3}
+  openLocalPosition: {x: 0, y: 0, z: 0}
+  openLocalScale: {x: 1, y: 1, z: 1}
+  requiredKeys: 1
+  onLevelComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &909970298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +2065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Player.PlayerController2D
   moveSpeed: 6
-  jumpForce: 6
+  jumpForce: 6.5
   groundCheck: {fileID: 1972833682}
   groundCheckRadius: 0.1
   groundLayer:
@@ -2344,7 +2306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dafdd70b3d9c3b4aa91389033193273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Level.ButtonController
-  door: {fileID: 875626377}
+  door: {fileID: 875626387}
 --- !u!61 &1175429990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2400,7 +2362,7 @@ Transform:
   m_GameObject: {fileID: 1175429988}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4, y: 3.82, z: 0}
+  m_LocalPosition: {x: -5.88, y: -3.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3071,7 +3033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24, y: 321}
+  m_AnchoredPosition: {x: 24, y: 451}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593135246
@@ -4296,7 +4258,7 @@ PrefabInstance:
       objectReference: {fileID: 1094497336}
     - target: {fileID: 1278683549147352942, guid: 660fab72c5e370644ae8d286f048c4ff, type: 3}
       propertyPath: attackSpeed
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1278683549147352942, guid: 660fab72c5e370644ae8d286f048c4ff, type: 3}
       propertyPath: microphoneDetector

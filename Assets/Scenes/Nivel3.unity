@@ -181,8 +181,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   boundsCamera: {fileID: 0}
-  touchJoystick: {fileID: 0}
-  touchJumpButton: {fileID: 0}
+  touchJoystick: {fileID: 2020006779}
+  touchJumpButton: {fileID: 968261628}
   graphicsRoot: {fileID: 0}
 --- !u!50 &106444125
 Rigidbody2D:
@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 146827953}
   - component: {fileID: 146827952}
   - component: {fileID: 146827951}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Pequena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 208429200}
   - component: {fileID: 208429199}
   - component: {fileID: 208429201}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Grande (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 618749851}
   - component: {fileID: 618749850}
   - component: {fileID: 618749852}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Grande
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1362,7 +1362,7 @@ GameObject:
   - component: {fileID: 909970301}
   - component: {fileID: 909970300}
   - component: {fileID: 909970299}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Mediana (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1691,7 +1691,7 @@ GameObject:
   - component: {fileID: 970130981}
   - component: {fileID: 970130980}
   - component: {fileID: 970130979}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Mediana (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1894,7 +1894,7 @@ GameObject:
   - component: {fileID: 1026989683}
   - component: {fileID: 1026989682}
   - component: {fileID: 1026989681}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Grande (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2404,7 +2404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1205329060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2437,7 @@ GameObject:
   - component: {fileID: 1207206820}
   - component: {fileID: 1207206819}
   - component: {fileID: 1207206818}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Mediana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3138,6 +3138,135 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1849292877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849292879}
+  - component: {fileID: 1849292878}
+  m_Layer: 0
+  m_Name: Niveles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1849292878
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849292877}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 89bd1ad0d4bfad240b63ed5093074a4b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1849292879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849292877}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.13, y: 4.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1893242430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3155,8 +3284,16 @@ PrefabInstance:
       value: IguanaRealNoFake
       objectReference: {fileID: 0}
     - target: {fileID: 2166492062207094715, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166492062207094715, guid: caeff4499190349448b1a0dd761d4851, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210666283998006855, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2367153799646384024, guid: caeff4499190349448b1a0dd761d4851, type: 3}
       propertyPath: m_LocalScale.x
@@ -3205,6 +3342,30 @@ PrefabInstance:
     - target: {fileID: 2367153799646384024, guid: caeff4499190349448b1a0dd761d4851, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432292693138298817, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827271427606007654, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531540372269409596, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823903331451633427, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8389833360949184893, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8718927866724411293, guid: caeff4499190349448b1a0dd761d4851, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3510,7 +3671,7 @@ GameObject:
   - component: {fileID: 2029377974}
   - component: {fileID: 2029377973}
   - component: {fileID: 2029377972}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Pequena (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3688,7 +3849,7 @@ GameObject:
   - component: {fileID: 2035823202}
   - component: {fileID: 2035823201}
   - component: {fileID: 2035823200}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Plataforma_Pequena (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3877,3 +4038,4 @@ SceneRoots:
   - {fileID: 1175429991}
   - {fileID: 1396101947}
   - {fileID: 1893242430}
+  - {fileID: 1849292879}
